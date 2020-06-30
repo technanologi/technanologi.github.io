@@ -1,0 +1,120 @@
+
+@keyframes opacity{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+.top{
+animation:opacity 1s linear;}
+.one{
+animation:opacity 2s;}
+.two{
+animation:opacity 3s;}
+.three{
+animation:opacity 4s;}
+.name{
+animation:opacity 5s;}
+#combine{
+animation:opacity 1.5s;}
+.borderimage{
+animation:opacity 6s;}
+
+
+.top h1
+{font-family: "Caesar Dressing";     
+ font-size:50px;
+ margin-top:-5px;
+ }
+
+.top p
+{font-family: "Audiowide";
+ background-color:rgb(153, 255, 51);
+ margin:-35px 0 0 0;
+ padding-left:170px;
+ border-bottom:4px solid #228B22;
+}
+#combine
+{background:linear-gradient(to bottom,#99ff66 0%,#ffffff 100%);
+ padding-top:5px;
+ }
+
+.oneimage,.twoimage,.threeimage
+{float:left;
+ margin-left:330px;}
+
+.onetext:hover,.twotext:hover,.threetext:hover
+{font-weight:700;
+ box-shadow:0 0 5px #bf8cff;}
+
+.onetext,.twotext,.threetext
+{margin-left:500px;
+ margin-top:0;
+ padding:5px;
+ width:30%;}
+
+.two
+{clear:left;
+ padding:10px 0 0 0;}
+
+.three
+{clear:left;
+ padding:10px 0 0 0;}
+
+.name
+{clear:left;
+ padding:0 0 0 600px;
+ margin-top:90px;}
+
+.name span
+{font-size:35px;
+ font-family:'Dr Sugiyama';
+ background:black;
+ color:white;
+ transition: 0.4s;}
+
+.name span:hover
+{background:white;
+ color:black;}
+
+.leftside
+{margin-top:-170px;
+ float:left;
+ z-index:1;}
+
+.rightside
+{float:right;
+ margin-top:-170px;
+ z-index:1;}
+
+@media only screen and (max-width: 1075px)
+{.oneimage,.twoimage,.threeimage{margin-left:200px;}
+ .onetext,.twotext,.threetext{margin-left:370px;}
+ .name{padding-left:40%;}
+
+}
+
+@media only screen and (max-width: 480px)
+ {.oneimage,.twoimage,.threeimage{margin-left:10px;}
+ .onetext,.twotext,.threetext
+ {margin-left:160px;
+ margin-top:0;
+ padding:5px;
+ width:30%;}
+ .name
+ {padding:0 0 0 150px;
+  margin:10px 0 0 30px;}
+
+ .leftside
+ {width:150px;
+  height:150px;}
+
+ .rightside
+ {float:right;
+ margin-top:-190px;
+ width:150px;
+ height:150px;}
+
+ .name span
+ {display:block;
+ width:30%;
+ padding-left:5%;}
+}
