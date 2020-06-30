@@ -103,18 +103,22 @@ animation:opacity 6s;}
  {padding:0 0 0 150px;
   margin:10px 0 0 30px;}
 
+ .top p
+ {padding-left:30%;}
+
  .leftside
  {width:150px;
-  height:150px;}
+  height:150px;
+  margin-top:-165px}
 
  .rightside
- {float:right;
- margin-top:-190px;
- width:150px;
- height:150px;}
+ {display:none;}
+
+
 
  .name span
  {display:block;
- width:30%;
- padding-left:5%;}
+  width:50%;
+  padding-left:5%;
+  font-size:20px;}
 }
